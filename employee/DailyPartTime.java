@@ -2,7 +2,7 @@ package employee;
 
 import java.util.Random;
 
-public class UC3 {
+public class DailyPartTime {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int IS_FULL_TIME = 1;
@@ -18,9 +18,10 @@ public class UC3 {
 		}
 		else if(empCheck == IS_PART_TIME)
 		{
-			empHrs = 4;
+			empHrs =4;
 		}
-		else
+			
+		else 
 		{
 			empHrs = 0;
 		}
